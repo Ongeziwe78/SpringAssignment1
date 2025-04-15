@@ -8,4 +8,5 @@ public interface CourseServiceInterface {
     Course add(Course course);
     Boolean delete(Long id);
     Course update(Course course);
+    boolean findByFullName(String fullName);
 }
